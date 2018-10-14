@@ -544,7 +544,7 @@ json_sites <- list(
       if(is.null(week) || week == 0){
         nfl_type <- "seasonProjectedStats"
       } else {
-        nfl_type <- "weekProjectedStats"
+        nfl_type <- "weekStats"
       }
 
       nfl_qry <- list(statType = nfl_type)
